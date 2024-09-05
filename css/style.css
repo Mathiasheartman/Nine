@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/img/tropical-leaves-background-zoom_23-2148580778.avif) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 5vw;
+  margin-bottom: 3vw;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+}
+
+.counter-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  color: #ffffff;
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+
+.counter {
+  display: block;
+  font-size: 6vw;
+  font-weight: 600;
+}
+.text{
+  font-size: 4vw;
+  padding-inline: 2vw;
+}

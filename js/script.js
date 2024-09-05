@@ -4,7 +4,7 @@ const interval = setInterval(() => {
   const now = new Date().getTime();
   const duration = countDownDate - now;
   
-  if (duration < 0) {
+  if (duration < 00) {
     clearInterval(interval);
     updateDuration(0);
     return;

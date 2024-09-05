@@ -42,7 +42,7 @@ h1 {
   backdrop-filter: blur(15px);
   color: #ffffff;
   margin: 0 .5vw;
-  padding-inline: 1vw;
+  padding-right: 1vw;
   text-transform: uppercase;
 }
 
